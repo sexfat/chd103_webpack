@@ -133,42 +133,6 @@ eval("var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!\n * jQ
 
 /***/ }),
 
-/***/ "./src/css/footer.css":
-/*!****************************!*\
-  !*** ./src/css/footer.css ***!
-  \****************************/
-/*! no exports provided */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack:///./src/css/footer.css?");
-
-/***/ }),
-
-/***/ "./src/css/header.css":
-/*!****************************!*\
-  !*** ./src/css/header.css ***!
-  \****************************/
-/*! no exports provided */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack:///./src/css/header.css?");
-
-/***/ }),
-
-/***/ "./src/css/style.css":
-/*!***************************!*\
-  !*** ./src/css/style.css ***!
-  \***************************/
-/*! no exports provided */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack:///./src/css/style.css?");
-
-/***/ }),
-
 /***/ "./src/main.js":
 /*!*********************!*\
   !*** ./src/main.js ***!
@@ -177,7 +141,19 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var gsap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! gsap */ \"./node_modules/gsap/index.js\");\n/* harmony import */ var _css_style_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./css/style.css */ \"./src/css/style.css\");\n/* harmony import */ var _css_header_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./css/header.css */ \"./src/css/header.css\");\n/* harmony import */ var _css_footer_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./css/footer.css */ \"./src/css/footer.css\");\nconst x =(x , y)=> x * y;\r\nconsole.log(x(10 , 20));\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n// jq\r\njquery__WEBPACK_IMPORTED_MODULE_0___default()('body').css(\"background-color\" , \"red\");\r\n\r\n//gsap\r\n// gsap.to('.box', {\r\n//    x: 800,\r\n//    y: 400,\r\n//    rotation : 360,\r\n//    duration : 1,\r\n//    scale : 6 \r\n// })\r\n\r\n\r\nconst tl =gsap__WEBPACK_IMPORTED_MODULE_1__[\"gsap\"].timeline();  \r\n\r\ntl.to('.box' , {\r\n    x:  400,\r\n    y: 600,\r\n    duration : 2,\r\n    scale: 2\r\n}).to('.box' , {\r\n   rotation : 360,\r\n   repeat : -1\r\n   \r\n\r\n})\r\n\r\n\n\n//# sourceURL=webpack:///./src/main.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var gsap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! gsap */ \"./node_modules/gsap/index.js\");\n/* harmony import */ var _sass_style_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./sass/style.scss */ \"./src/sass/style.scss\");\nconst x =(x , y)=> x * y;\r\nconsole.log(x(10 , 20));\r\n\r\n\r\n\r\n// import './css/style.css';\r\n// import './css/header.css';\r\n// import './css/footer.css';\r\n\r\n\r\n\r\n\r\n// jq\r\njquery__WEBPACK_IMPORTED_MODULE_0___default()('body').css(\"background-color\" , \"red\");\r\n\r\n//gsap\r\n// gsap.to('.box', {\r\n//    x: 800,\r\n//    y: 400,\r\n//    rotation : 360,\r\n//    duration : 1,\r\n//    scale : 6 \r\n// })\r\n\r\n\r\nconst tl =gsap__WEBPACK_IMPORTED_MODULE_1__[\"gsap\"].timeline();  \r\n\r\ntl.to('.box' , {\r\n    x:  400,\r\n    y: 600,\r\n    duration : 2,\r\n    scale: 2\r\n}).to('.box' , {\r\n   rotation : 360,\r\n   repeat : -1\r\n   \r\n\r\n})\r\n\r\n\n\n//# sourceURL=webpack:///./src/main.js?");
+
+/***/ }),
+
+/***/ "./src/sass/style.scss":
+/*!*****************************!*\
+  !*** ./src/sass/style.scss ***!
+  \*****************************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack:///./src/sass/style.scss?");
 
 /***/ })
 

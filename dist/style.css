@@ -1,16 +1,15 @@
-.box {
-   width: 80px;
-   height: 80px;
-   background-color: #bbff00;
-}
 header {
-    width: 100%;
-    height: 100px;
-   background-color: #64fffa;
+  width: 100%;
+  height: 100px;
+  background-color: #64fffa; }
 
-}
 footer {
-    width: 100%;
-    height: 100px;
-   background-color: #6cff17;
-}
+  width: 100%;
+  height: 100px;
+  background-color: #6cff17; }
+
+.box {
+  width: 80px;
+  height: 80px;
+  background-color: #bbff00; }
+

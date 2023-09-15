@@ -11,8 +11,8 @@ module.exports = {
     rules: [
       {
         // 格式
-        test: /\.css$/,
-        //順序是由下到上 css > style
+        test: /\.(sass|scss|css)$/,
+        //順序是由下到上 sass > css > style
         use: [
           {
             loader: MiniCssExtractPlugin.loader,
@@ -20,13 +20,13 @@ module.exports = {
               publicPath: "./dist",
             },
           },
-          //'style-loader', 會跟原本的衝突
           "css-loader",
+          "sass-loader",
         ],
       },
     ],
   }, // 處裡對應模組
-   plugins: [
+  plugins: [
     new MiniCssExtractPlugin({
       filename: "./style.css",
     }),
