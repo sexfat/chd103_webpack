@@ -3,6 +3,9 @@ console.log(x(10 , 20));
 
 import $ from 'jquery';
 import { gsap } from "gsap";
+import './css/style.css';
+import './css/header.css';
+import './css/footer.css';
 
 // jq
 $('body').css("background-color" , "red");
