@@ -1,7 +1,7 @@
 const x =(x , y)=> x * y;
 console.log(x(10 , 20));
 
-import $ from 'jquery';
+// import $ from 'jquery';
 import { gsap } from "gsap";
 //css
 // import './css/style.css';

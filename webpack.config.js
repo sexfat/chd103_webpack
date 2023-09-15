@@ -1,6 +1,8 @@
 const path = require("path");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const { CleanWebpackPlugin } = require("clean-webpack-plugin");
+const webpack = require("webpack");
 
 module.exports = {
   entry: {
@@ -30,6 +32,11 @@ module.exports = {
     ],
   }, // 處裡對應模組
   plugins: [
+    new CleanWebpackPlugin(),
+    new webpack.ProvidePlugin({
+      $: "jquery",
+      jQuery: "jquery",
+    }),
     new MiniCssExtractPlugin({
       filename: "./css/[name].css",
     }),
@@ -51,5 +58,10 @@ module.exports = {
     index: "index.html",
     open: true,
   }, // 服務器配置
-  mode: "development", // 開發模式配置
+  mode: "production", // 開發模式配置 production development
+  resolve: {
+    alias: {
+      vue: "vue/dist/vue.esm-bundler.js",
+    },
+  }// for vue
 };
